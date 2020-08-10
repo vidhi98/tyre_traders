@@ -5475,13 +5475,6 @@ body {
   width: inherit;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 20vh 0;
-}
 
 .slick span {
   display: block;
