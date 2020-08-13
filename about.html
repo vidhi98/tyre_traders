@@ -17,7 +17,8 @@
   </head>
   <body class="page">
       <!-- Loader-->
-      <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div>
+      <!-- <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div> -->
+      <div id="loader"></div>
       <!-- Loader end-->
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         
@@ -48,7 +49,7 @@
         <ul class="navbar-nav">
           <li class="nav-item "><a class="nav-link" href="home.html">Home</a></li>
            <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="prod_detail.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
          <li class="nav-item"><a class="nav-link" href="contacts.html">Contact Us</a></li>
         </ul>
 
@@ -64,16 +65,16 @@
                 <div class="top-bar__item"><i class="ic fas fa-phone text-primary" style="color:black"></i>
                    <a class="top-bar__item" href="tel:+17553028549"> +91 9090909090</a>
                 </div>
-                <div class="top-bar__item"><i class="ic fas fa-envelope text-primary" style="color:black"></i><a class="top-bar__item" href="mailto:support@autlines.com"> Support@vaanautomotive.com</a></div>
-                <div class="top-bar__item"><i class="ic fas fa-clock text-primary" style="color:black"></i> Mon To Fri 10 Am to 9 PM. 
+                <div class="top-bar__item"><i class="ic fas fa-envelope text-blue"></i><a class="top-bar__item" href="mailto:support@autlines.com"> Support@vaanautomotive.com</a></div>
+                <div class="top-bar__item"><i class="ic fas fa-clock text-blue"></i> Mon To Fri 10 Am to 9 PM. 
                 </div>
               </div>
               <div class="col-auto">
                 <ul class="header-soc list-unstyled">
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-twitter"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-facebook-f"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-instagram"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-youtube"></i></a></li>
+                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-twitter text-blue"></i></a></li>
+                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-facebook-f text-blue"></i></a></li>
+                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-instagram text-blue"></i></a></li>
+                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-youtube text-blue"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -83,11 +84,8 @@
           <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
               <div class="col-auto">
-                <!-- <a class="navbar-brand navbar-brand_light scroll" href="home.html">
-                  <img class="normal-logo img-fluid" src="assets/media/general/logo-light.png" alt="logo"/>
-                </a> -->
                 <a class="navbar-brand navbar-brand_dark scroll" href="home.html">
-                  <img class="normal-logo img-fluid" src="assets/media/general/logo-sm_blue.png" alt="logo"/>
+                  <img class="normal-logo img-fluid" src="assets/media/general/vaan_logo.svg" alt="logo"/>
                   <span>
                     VaanAutomotives
                   </span>
@@ -102,11 +100,11 @@
                 <nav class="navbar navbar-expand-lg justify-content-end" id="nav">
                   <ul class="yamm main-menu navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacts.html">Contact Us</a></li>
                   </ul>
-                   <button class="header-main__btn btn btn-secondary"> Buy Now</button>
+                  <button class="header-main__btn btn btn-yellow"> Buy Now</button>
                 </nav>
               </div>
             </div>
@@ -385,7 +383,7 @@
                 <div class="b-goods-slider ui-slider ui-slider_dots-gray ui-slider_arr_btm-center ui-slider_arr_gray js-slider" data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 2, &quot;autoplay&quot;: false, &quot;dots&quot;: true, &quot;arrows&quot;: true, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1}}]}">
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/1.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/5.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Alexander Rayan</h3>
                       <div class="b-team__category">Wrap Stylist</div>
                       <ul class="b-team-soc list-unstyled">
@@ -399,7 +397,7 @@
                   <!-- end .b-team-->
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/2.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/6.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Marey Jan Patrick</h3>
                       <div class="b-team__category">Sales Manager</div>
                       <ul class="b-team-soc list-unstyled">
@@ -413,7 +411,7 @@
                   <!-- end .b-team-->
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/3.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/7.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Joseph Edward</h3>
                       <div class="b-team__category">Lead Designer</div>
                       <ul class="b-team-soc list-unstyled">
@@ -427,7 +425,7 @@
                   <!-- end .b-team-->
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/1.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/5.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Alexander Rayan</h3>
                       <div class="b-team__category">Wrap Stylist</div>
                       <ul class="b-team-soc list-unstyled">
@@ -441,7 +439,7 @@
                   <!-- end .b-team-->
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/2.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/6.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Marey Jan Patrick</h3>
                       <div class="b-team__category">Sales Manager</div>
                       <ul class="b-team-soc list-unstyled">
@@ -455,7 +453,7 @@
                   <!-- end .b-team-->
                   <section class="b-team">
                     <div class="b-team__inner">
-                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/b-team/3.jpg" alt="Foto"/></div>
+                      <div class="b-team__media"><img class="img-scale" src="assets/media/content/about_us/7.png" alt="Foto"/></div>
                       <h3 class="b-team__name">Joseph Edward</h3>
                       <div class="b-team__category">Lead Designer</div>
                       <ul class="b-team-soc list-unstyled">
@@ -482,27 +480,35 @@
                 <div class="row">
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>
                   <div class="team_div col-md-3">
                     <img class="team_div_img" src="assets/media/content/about_us/photography-of-man-in-white-shirt-with-round-black-analog-697509.png">
+                    <div class="team_name">Aditya Singh</div>
                   </div>    
                 </div>
               </div>
@@ -707,7 +713,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6">
-              <div class="footer-section"><a class="footer__logo footer_name" href="#"><img class="img-fluid" src="assets/media/general/logo-sm_blue.png" alt="Logo">  VaanAutomotives</a>
+              <div class="footer-section"><a class="footer__logo footer_name" href="#"><img class="normal-logo img-fluid" src="assets/media/general/vaan_logo.svg" alt="Logo">  VaanAutomotives</a>
                 <div class="footer-info">Ceipisicing elit sed do eiusmod tempor laboe dolore magna aliqa Ut enim ad minim veniam quis nostrud exercitation ullam co laboris nis aliquip comsecd sed ipsum.</div>
               </div>
               <!-- <section class="footer-section">

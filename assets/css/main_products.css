@@ -96,9 +96,7 @@ a {
 }
 
 .ui-title-inner {
-  font-size: 50px;
-  color: #828282;
-  font-weight: bold;
+  font-size: 22px;
 }
 
 .ui-subtitle {
@@ -185,7 +183,7 @@ a {
 .ui-slider-nav {
   margin-top: 10px;
 }
-
+/* 
 .ui-slider-nav .slick-slide {
   position: relative;
   margin-right: 20px;
@@ -240,7 +238,7 @@ a {
 
 .ui-slider_arr_gray .slick-arrow:before {
   border-color: #ccc;
-}
+} */
 
 /* Images */
 .img-scale {
@@ -2299,11 +2297,11 @@ html .b-goods-slider {
   padding-bottom: 115px;
   background: url("../media/content/b-goods/bg/bg-3.png") no-repeat 50% 100%;
 }
-
+/* 
 html .b-goods-slider .slick-list {
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
 .b-goods-other {
   padding: 35px 15px;
@@ -2416,7 +2414,7 @@ html .b-goods-slider .slick-list {
 .b-goods-slider-2 {
   margin: 70px -165px 0;
 }
-
+/* 
 .b-goods-slider-2 .slick-slide:nth-child(odd) .b-goods-2:after {
   position: absolute;
   top: 0;
@@ -2426,7 +2424,7 @@ html .b-goods-slider .slick-list {
   opacity: .1;
   background-color: #ddd;
   content: '';
-}
+} */
 
 .b-goods-2 {
   position: relative;
@@ -2947,7 +2945,7 @@ html .b-goods-slider .slick-list {
   margin-top: 90px;
   margin-bottom: -295px;
 }
-
+/* 
 .b-offers-slider .slick-current + .slick-slide .b-offers__img {
   opacity: 0;
 }
@@ -2966,7 +2964,7 @@ html .b-goods-slider .slick-list {
 
 .b-offers-slider .slick-next {
   right: -110px;
-}
+} */
 
 .section-offers {
   padding-bottom: 60px;
@@ -5157,7 +5155,7 @@ html .b-goods-slider .slick-list {
 /*# sourceMappingURL=main.css.map */
 
 #map{
-    height: 655px;
+    height: 430px;
 }
 
 /* Custom CSS for tyre_traders */
@@ -5181,6 +5179,9 @@ html .b-goods-slider .slick-list {
 }
 .text-blue{
   color:#04154C;
+}
+.text-yellow{
+    color:#E2B71C;
 }
 .yamm li a {
   padding-left: 50px;
@@ -5269,15 +5270,14 @@ html .b-goods-slider .slick-list {
 
 .latest-desc{
   position: absolute;
-  bottom: 35px;
+  bottom: 0px;
   height: 75px  ;
   background-color: #ffffff;
   text-align: left;
   font-size: 16px;
   margin: 0 !important;
-  width: 262px;
-    padding: 0 25px;
-    opacity: 0.8;
+    padding: 10px 25px;
+    opacity: 0.5;
     z-index: 100;
 }
 .latest-desc-hover{
@@ -5288,16 +5288,9 @@ html .b-goods-slider .slick-list {
   text-align: left;
   font-size: 16px;
   margin: 0 !important;
-  width: 262px;
     padding: 0 15px;
     color: #ffffff;
     z-index: 100;
-}
-.b-goods-div:hover > .latest-desc{
-  display: none;
-}
-.b-goods-div:hover > .latest-desc-hover{
-  display: block;
 }
 .b-goods__img:after {
   position: absolute;
@@ -5438,12 +5431,19 @@ html .b-goods-slider .slick-list {
 .prod_types_span{
   margin-right: 30px;
 }
+
+
+
+
 /* Products main page CSS */
 
-.prod_range_div{
-  height: 300px;
+
+
+
+.range{
+    position: relative;
 }
-.range_img:after{
+.range__img:after{
   position: absolute;
   top: 0;
   right: 0;
@@ -5455,39 +5455,45 @@ html .b-goods-slider .slick-list {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-.range_img{
-  height: inherit;
-  width: inherit;
+.prod_range .slick-slide.lt2 .range-div {
+  transform: translate(-20%, 0) scale(.6);
 }
-.prod_range .slick-slide.lt2 .prod_range_div {
-  transform: translate(-5%, 0) scale(.6);
+.prod_range .slick-slide.lt1 .range-div {
+  transform: translate(-15%, 0) scale(.8);
 }
-.prod_range .slick-slide.lt1 .prod_range_div {
-  opacity: .7;
-  transform: translate(-25%, 0) scale(.8);
+.prod_range .slick-slide.gt1 .range-div {
+  transform: translate(15%, 0) scale(.8);
 }
-.prod_range .slick-slide.gt1 .prod_range_div {
-  opacity: .7;
-  transform: translate(25%, 0) scale(.8);
+.prod_range .slick-slide.gt2 .range-div {
+  transform: translate(20%, 0) scale(.6);
 }
-.prod_range .slick-slide.gt2 .prod_range_div {
-  transform: translate(5%, 0) scale(.6);
-}
-.prod_range .slick-slide.slick-center .prod_range_div{
+.prod_range .slick-slide.slick-center .range-div{
   z-index: 1;
-  transform: scale(1.5);
-  opacity: 1;
+  transform: scale(1);
 }
 
-/* Conatct Us page CSS */
-
-.section-contact_us{
-  background-image: url(../media/content/contact/william-iven-SpVHcbuKi6E-unsplash.png);
+.view-btn{
+    padding: 30px 0 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
-.form_title{
-  text-align: left;
-  font-size: 18px;
-  padding: 20px 0;
+.view-btn a:hover{
+    text-decoration: none;
+    color: #E2B71C;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+}
+.carousel-indicators li {
+    background-color: #22ABC3;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+    border: 1px solid #22ABC3;
 }
 
 /* ======= CUSTOM PRELOADER ========== */

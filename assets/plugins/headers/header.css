@@ -459,7 +459,7 @@ html [data-off-canvas*=open] {
 }
 .top-bar__item {
   color: #222222;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
 }
 .top-bar__item:not(:last-child) {
@@ -551,9 +551,10 @@ header-main__link:hover{
   color: #222;
 }
 .navbar-brand {
-  padding-right: 50px;
+  padding-right: 20px;
   border-right: 1px solid #ddd;
-  max-width: 17vw;
+  max-width: 18vw;
+  font-weight: bold;
 }
 
 .main-menu {

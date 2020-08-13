@@ -12,7 +12,7 @@
 
 @media (min-width:1800px) and (max-width:2000px) {
   .navbar-brand {
-    max-width: 15.5vw;
+    max-width: 18vw;
   }
   .b-bnr-2__figure {
     max-width: 28vw;
@@ -21,8 +21,8 @@
 
 @media (min-width:1200px) and (max-width:1549px) {
   .header-main__btn {
-    padding: 9px 15px;
-    font-size: 15px;
+    padding: 9px 35px;
+    font-size: 16px;
   }
   .header-soc__link {
     margin-left: 16px;
@@ -35,7 +35,7 @@
   }
   .navbar-brand {
     padding-right: 20px;
-    max-width: 15.5vw;
+    max-width: 17vw;
     margin-right: 0;
   }
   .section-progress__img {

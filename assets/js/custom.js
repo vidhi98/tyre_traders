@@ -30,12 +30,30 @@ $(document).ready(function() {
 /////////////////////////////////////////////////////////////////
 
 
-    var $preloader = $('#page-preloader'),
-    $spinner   = $preloader.find('.spinner-loader');
-    $spinner.fadeOut();
-    $preloader.delay(100).fadeOut('slow');
+    // var $preloader = $('#page-preloader'),
+    // $spinner   = $preloader.find('.spinner-loader');
+    // $spinner.fadeOut();
+    // $preloader.delay(100).fadeOut('slow');
 
 
+    var loader = document.getElementById('loader');
+    
+      function loadNow(opacity) {
+        if (opacity <= 0) {
+            displayContent();
+        } else {
+            loader.style.opacity = opacity;
+            window.setTimeout(function() {
+                loadNow(opacity - 0.05);
+            }, 50);
+        }
+    }
+    
+    function displayContent() {
+        loader.style.display = 'none';
+        // document.getElementById('content').style.display = 'block';
+    }
+      loadNow(1);
 /////////////////////////////////////
 //  Scroll Animation
 /////////////////////////////////////

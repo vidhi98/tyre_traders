@@ -17,11 +17,11 @@
   </head>
   <body class="page">
       <!-- Loader-->
-      <div id="page-preloader">
+      <!-- <div id="page-preloader">
         <span class="spinner border-t_second_b border-t_prim_a"></span>
-        <!-- <img src="assets/media/general/preloader.png" class="tyre_spinner > -->
-      </div>
+      </div> -->
       <!-- Loader end-->
+      <div id="loader"></div>
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
         
       <!-- ==========================-->
@@ -79,7 +79,7 @@
                           <li><a  href="blog-post.html">Blog post</a></li>
                         </ul>
                     </li> -->
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contact Us</a></li>
                   </ul>
 
@@ -91,20 +91,20 @@
           <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
               <div class="col-auto">
-                <div class="top-bar__item"><i class="ic fas fa-phone text-primary" style="color:black"></i>
+                <div class="top-bar__item"><i class="ic fas fa-phone text-primary" style="color:#04154C"></i>
                    <a class="top-bar__item" href="tel:+17553028549"> +91 9090909090</a>
                 </div>
-                <div class="top-bar__item"><i class="ic fas fa-envelope text-primary" style="color:black"></i><a class="top-bar__item" href="mailto:support@autlines.com"> Support@vaanautomotive.com</a></div>
-                <div class="top-bar__item"><i class="ic fas fa-clock text-primary" style="color:black"></i> Mon To Fri 10 Am to 9 PM. 
-                </div>
-              </div>
-              <div class="col-auto">
-                <ul class="header-soc list-unstyled">
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-twitter"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-facebook-f"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-instagram"></i></a></li>
-                  <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-youtube"></i></a></li>
-                </ul>
+                   <div class="top-bar__item"><i class="ic fas fa-envelope text-blue"></i><a class="top-bar__item" href="mailto:support@autlines.com"> Support@vaanautomotive.com</a></div>
+                   <div class="top-bar__item"><i class="ic fas fa-clock text-blue"></i> Mon To Fri 10 Am to 9 PM. 
+                   </div>
+                 </div>
+                 <div class="col-auto">
+                   <ul class="header-soc list-unstyled">
+                     <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-twitter text-blue"></i></a></li>
+                     <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-facebook-f text-blue"></i></a></li>
+                     <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-instagram text-blue"></i></a></li>
+                     <li class="header-soc__item"><a class="header-soc__link" href="#" target="_blank"><i class="ic fab fa-youtube text-blue"></i></a></li>
+                   </ul>
               </div>
             </div>
           </div>
@@ -113,11 +113,8 @@
           <div class="container-fluid">
             <div class="row align-items-center justify-content-between">
               <div class="col-auto">
-                <!-- <a class="navbar-brand navbar-brand_light scroll" href="home.html">
-                  <img class="normal-logo img-fluid" src="assets/media/general/logo-light.png" alt="logo"/>
-                </a> -->
                 <a class="navbar-brand navbar-brand_dark scroll" href="home.html">
-                  <img class="normal-logo img-fluid" src="assets/media/general/logo-sm_blue.png" alt="logo"/>
+                  <img class="normal-logo img-fluid" src="assets/media/general/vaan_logo.svg" alt="logo"/>
                   <span>
                     VaanAutomotives
                   </span>
@@ -131,7 +128,7 @@
               <div class="col-xl d-none d-xl-block">
                 <nav class="navbar navbar-expand-lg justify-content-end" id="nav">
                   <ul class="yamm main-menu navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="home.html">Home</a>
+                    <li class="nav-item active"><a class="nav-link active" href="home.html">Home</a>
                         <!-- <div class="dropdown-menu" >
                           <a class="dropdown-item" href="home.html">Home 1</a>
                            <a class="dropdown-item" href="home-2.html">Home 2</a>
@@ -163,7 +160,7 @@
                     <li class="nav-item"><a class="nav-link" href="contacts.html">Contact Us</a></li>
                   </ul>
                     <!-- <a class="header-main__link" href="home.html"><i class="ic icon-user"></i></a><span class="header-main__link btn_header_search"><i class="ic icon-magnifier"></i></span> -->
-                  <button class="header-main__btn btn btn-secondary"> Buy Now</button>
+                  <button class="header-main__btn btn btn-yellow"> Buy Now</button>
                 </nav>
               </div>
             </div>
@@ -417,6 +414,7 @@
               <div class="b-services-nav nav" id="servicesTab" role="tablist">
                 <a class="b-services-nav__link col-md-6 mt-4 nav-link active" id="services1-tab" data-toggle="tab" href="#services1" role="tab" aria-controls="services1" aria-selected="true">
                   <div class="b-services-nav__inner">
+                    <div class="service_title">Bike Tyres</div>
                     <div class="b-services-nav__title">Bike Tyres
                       <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 15px;">Explore Now</div>
                       <div class="ui-decor ui-decor_explore" style="height: 7px; width: 95px;margin-top: 40%;"></div>  
@@ -426,16 +424,28 @@
                   <a class="b-services-nav__link col-md-6 nav-link" id="services2-tab" data-toggle="tab" href="#services2" role="tab" aria-controls="services2" aria-selected="false">
                   <div class="b-services-nav__inner" style="background-image: url(assets/media/content/home/2.png);">
                     <div class="service_title">Passenger Car Tyres</div>
+                    <div class="b-services-nav__title">Passenger Car Tyres
+                      <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 15px;">Explore Now</div>
+                      <div class="ui-decor ui-decor_explore" style="height: 7px; width: 95px;margin-top: 40%;"></div>  
+                    </div>
                   </div>
                 </a>
                   <a class="b-services-nav__link col-md-6 mt-4 nav-link" id="services3-tab" data-toggle="tab" href="#services3" role="tab" aria-controls="services3" aria-selected="false">
                   <div class="b-services-nav__inner" style="background-image: url(assets/media/content/home/3.png);">
                     <div class="service_title">Heavy Vehicle Tyres</div>
+                    <div class="b-services-nav__title">Heavy Vehicle Tyres
+                      <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 15px;">Explore Now</div>
+                      <div class="ui-decor ui-decor_explore" style="height: 7px; width: 95px;margin-top: 40%;"></div>  
+                    </div>
                   </div>
                 </a>
                   <a class="b-services-nav__link col-md-6 nav-link" id="services4-tab" data-toggle="tab" href="#services4" role="tab" aria-controls="services4" aria-selected="false">
                   <div class="b-services-nav__inner" style="background-image: url(assets/media/content/home/4.png);">
                     <div class="service_title">SUV Tyres</div>
+                    <div class="b-services-nav__title">SUV Tyres
+                      <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 15px;">Explore Now</div>
+                      <div class="ui-decor ui-decor_explore" style="height: 7px; width: 95px;margin-top: 40%;"></div>  
+                    </div>
                   </div>
                 </a>
               </div>
@@ -453,13 +463,11 @@
                     <h3 class="b-services-content__subtitle blue-text">Visit our dealers to See range</h3>
                     <p>Excepteur sint occaecat cupidatat non proident sunt ind culpa qudesa officia deserunt mollit anim est laboru unde omnis iste natus.</p>
                     <div class="b-phone"><i class="ic icon-call-end"></i> Call us for enquiries<a class="b-phone__number" href="tel:+91 9090909090">+91 9090909090</a></div>
-                    <!-- end .b-phone-->
                     
                   </div>
                 </section>
-                <section class="b-services-content__section tab-pane fade" id="services2" role="tabpanel" aria-labelledby="services2-tab">
+                <!-- <section class="b-services-content__section tab-pane fade" id="services2" role="tabpanel" aria-labelledby="services2-tab">
                   <div class="text-center d-inline-block">
-                    <!-- <div class="ui-title-logo">AUTLINES</div> -->
                     <h2 class="ui-title mb-3">Passenger Car Tyres</h2>
                   </div>
                   <div class="b-services-content__main">
@@ -467,13 +475,11 @@
                     <h3 class="b-services-content__subtitle text-primary">Book your free Auto Inspection</h3>
                     <p>Excepteur sint occaecat cupidatat non proident sunt ind culpa qudesa officia deserunt mollit anim est laboru unde omnis iste natus.</p>
                     <div class="b-phone"><i class="ic icon-call-end"></i> Call us for enquiries<a class="b-phone__number" href="tel:+91 9090909090">+91 9090909090</a></div>
-                    <!-- end .b-phone-->
                     
                   </div>
                 </section>
                 <section class="b-services-content__section tab-pane fade" id="services3" role="tabpanel" aria-labelledby="services3-tab">
                   <div class="text-center d-inline-block">
-                    <!-- <div class="ui-title-logo">AUTLINES</div> -->
                     <h2 class="ui-title mb-3">Heavy Vehicle Tyres</h2>
                   </div>
                   <div class="b-services-content__main">
@@ -482,23 +488,20 @@
                     <h3 class="b-services-content__subtitle text-primary">Book your free Auto Inspection</h3>
                     <p>Excepteur sint occaecat cupidatat non proident sunt ind culpa qudesa officia deserunt mollit anim est laboru unde omnis iste natus.</p>
                     <div class="b-phone"><i class="ic icon-call-end"></i> Call us for enquiries<a class="b-phone__number" href="tel:+91 9090909090">+91 9090909090</a></div>
-                    <!-- end .b-phone-->
+                    
                     
                   </div>
                 </section>
                 <section class="b-services-content__section tab-pane fade" id="services4" role="tabpanel" aria-labelledby="services4-tab">
                   <div class="text-center d-inline-block">
-                    <!-- <div class="ui-title-logo">AUTLINES</div> -->
                     <h2 class="ui-title mb-3">SUV Tyres</h2>
                   </div>
                   <div class="b-services-content__main">
                     <p>Eorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation aliquip ex ea commodo consequat. Duis aute irure dolorin reprehenderits vol dolore fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
                     <p>Non proident sunt ind culpa qudesa officia deserunt mollit anim est laboru unde omnis iste natus error sit voluptatem.</p>
                     <div class="b-phone"><i class="ic icon-call-end"></i> Call us for enquiries<a class="b-phone__number" href="tel:+91 9090909090">+91 9090909090</a></div>
-                    <!-- end .b-phone-->
-                    
                   </div>
-                </section>
+                </section> -->
               </div>
             </div>
           </div>
@@ -524,7 +527,7 @@
         <div class="container">
           <div class="section-goods__list">
             <div class="row">
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/5.png" alt="photo"/></a>
                   <!-- <div class="b-goods__main">
                     <div class="row no-gutters">
@@ -582,8 +585,17 @@
                     Passenger Vehicle tyres
                   </div>
                 </div>
+                <div class=" row latest-desc-hover">
+                  <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                    Comfort Series
+                  </div>
+                  <div class="col-xs-12">
+                    Passenger Vehicle tyres
+                  </div>
+                  <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/6.png" alt="photo"/></a>
                   <!-- <div class="b-goods__main">
                     <div class="row no-gutters">
@@ -641,8 +653,18 @@
                     Passenger Vehicle tyres
                   </div>
                 </div>
+
+                <div class=" row latest-desc-hover">
+                  <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                    Sports Series
+                  </div>
+                  <div class="col-xs-12">
+                    Passenger Vehicle tyres
+                  </div>
+                  <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div> 
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/7.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -653,8 +675,17 @@
                     Heavy vehicle tyres
                   </div>
                 </div>
+                  <div class=" row latest-desc-hover">
+                    <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                      Milege Series
+                    </div>
+                    <div class="col-xs-12">
+                      Heavy vehicle tyres
+                    </div>
+                    <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/8.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -665,8 +696,17 @@
                     Offroad SUV Tyres
                   </div>
                 </div>
+                <div class=" row latest-desc-hover">
+                  <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                    Glider Series
+                  </div>
+                  <div class="col-xs-12">
+                    Offroad SUV Tyres
+                  </div>
+                  <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/5.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -676,9 +716,18 @@
                   <div class="col-xs-12">
                     Passenger Vehicle tyres
                   </div>
+                </div>
+                <div class=" row latest-desc-hover">
+                  <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                    Comfort Series
                   </div>
+                  <div class="col-xs-12">
+                    Passenger Vehicle tyres
+                  </div>
+                  <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/6.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -689,8 +738,17 @@
                     Passenger Vehicle tyres
                   </div>
                 </div>
+                <div class=" row latest-desc-hover">
+                    <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                      Sports Series
+                    </div>
+                    <div class="col-xs-12">
+                      Passenger Vehicle tyres
+                    </div>
+                    <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/7.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -700,9 +758,18 @@
                   <div class="col-xs-12">
                     Heavy vehicle tyres
                   </div>
-                  </div>
+                </div>
+                <div class=" row latest-desc-hover">
+                    <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                      Milage Series
+                    </div>
+                    <div class="col-xs-12">
+                      Heavy vehicle tyres
+                    </div>
+                    <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-6 b-goods-div">
                 <div class="b-goods"><a class="b-goods__img" href="#"><img class="img-scale" src="assets/media/content/home/8.png" alt="photo"/></a>
                 </div>
                 <div class=" row latest-desc">
@@ -712,6 +779,16 @@
                   <div class="col-xs-12">
                     Offroad SUV Tyres
                   </div>
+                </div>
+                <div class=" row latest-desc-hover">
+                    <div class="col-xs-12" style="font-size: 18px; font-weight: bold;">
+                      Glider Series
+                    </div>
+                    <div class="col-xs-12">
+                      Offroad SUV Tyres
+                    </div>
+                    <div class="yellow-text" style="font-size: 14px;text-align:left; padding-top: 30px;">Explore Now</div>
+                </div>
               </div>
             </div>
             <!-- <div class="text-center mt-3"><a class="btn btn-secondary" href="#">show more</a></div> -->
@@ -1420,7 +1497,7 @@
             </div>
             <div class="row">
               <div class="col-md-4 offset-md-4">
-                <button class="btn btn-secondary w-100 mt-2">Send Message</button>
+                <button class="btn btn-yellow w-100 mt-2">Send Message</button>
               </div>
             </div>
           </form>
@@ -1551,7 +1628,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-3 col-md-6">
-                <div class="footer-section"><a class="footer__logo footer_name" href="#"><img class="img-fluid" src="assets/media/general/logo-sm_blue.png" alt="Logo">  VaanAutomotives</a>
+                <div class="footer-section"><a class="footer__logo footer_name" href="#"><img class="normal-logo img-fluid" src="assets/media/general/vaan_logo.svg" alt="Logo">  VaanAutomotives</a>
                   <div class="footer-info">Ceipisicing elit sed do eiusmod tempor laboe dolore magna aliqa Ut enim ad minim veniam quis nostrud exercitation ullam co laboris nis aliquip comsecd sed ipsum.</div>
                 </div>
                 <!-- <section class="footer-section">
