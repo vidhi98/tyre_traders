@@ -134,7 +134,7 @@
         <div class="prod_container section_prod_content" style="padding-top: 150px;">
             <div class="row">
               <div class="col-md-6">
-                <div class="map" id="map"></div>
+                <div class="contact-map" id="contact-map"><iframe style="height: inherit;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1753.925374154194!2d77.07241092653668!3d28.45391523801464!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18ec3310b1b9%3A0x49bee594c9b09d09!2sSector%2044%2C%20Gurugram%2C%20Haryana%20122003!5e0!3m2!1sen!2sin!4v1597296363298!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
               </div>
               <div class="col-md-6">
                 <section class="section-form-contacts">
@@ -250,7 +250,7 @@
     <script src="assets/libs/jquery-3.3.1.min.js" ></script>
     <script src="assets/libs/jquery-migrate-1.4.1.min.js"></script>
     <!-- Bootstrap-->
-    <script src="assets/plugins/popever/popper.min.js" ></script>
+    <!-- <script src="assets/plugins/popever/popper.min.js" ></script> -->
     <script src="assets/libs/bootstrap-4.1.3/js/bootstrap.min.js" ></script>
     <!---->
     <!-- Color scheme-->
@@ -258,7 +258,7 @@
     <!-- Select customization & Color scheme-->
     <script src="assets/libs/bootstrap-select.min.js"></script>
     <!-- Pop-up window-->
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script> -->
     <!-- Headers scripts-->
     <script src="assets/plugins/headers/slidebar.js"></script>
     <script src="assets/plugins/headers/header.js"></script>
@@ -278,9 +278,14 @@
     <script src="assets/js/custom.js"></script>
     
     <!-- User map-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTd-ZT5nzCNucY9AZUCspnXrw3votR34"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTd-ZT5nzCNucY9AZUCspnXrw3votR34"></script> -->
     <!-- Maps customization-->
-    <script src="assets/js/map-custom.js"></script>
+    <!-- <script src="assets/js/map-custom.js"></script> -->
     
+    <script>
+      document.cookie = "SameSite=None; Secure";
+      console.log( document.cookie );
+  </script>
+
   </body>
 </html>
