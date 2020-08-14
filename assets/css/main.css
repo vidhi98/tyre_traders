@@ -5202,6 +5202,14 @@ html .b-goods-slider .slick-list {
   padding-right: 40px;
   padding-left: 40px;
 }
+.home_banner{
+  height: 989px;
+  position: relative;
+  top: 100px;
+}
+.banner-div img{
+  width: 100%;
+}
 .b-main-slider__title{
   font-size: 50px;
 }
@@ -5275,7 +5283,7 @@ html .b-goods-slider .slick-list {
   text-align: left;
   font-size: 16px;
   margin: 0 !important;
-  width: 262px;
+  width: 90%;
     padding: 0 25px;
     opacity: 0.8;
     z-index: 100;
@@ -5386,6 +5394,9 @@ html .b-goods-slider .slick-list {
   color: #000000;
   font-weight: bold;
 }
+.about_text{
+  font-size: 22px;
+}
 /* products_2 CSS */
 
 .section-prod_detail{
@@ -5489,6 +5500,9 @@ html .b-goods-slider .slick-list {
   font-size: 18px;
   padding: 20px 0;
 }
+.section_contact{
+  padding-top: 150px;
+}
 
 /* ======= CUSTOM PRELOADER ========== */
 
@@ -5498,4 +5512,79 @@ html .b-goods-slider .slick-list {
 	height: 100vh;
 	background: #21242d url('https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif') no-repeat center;
 	z-index: 999;
+}
+/* Media Queries */
+/* About Us page */
+@media (max-width: 767px){
+html .section-title-page_mod-a {
+    height: 200px !important;
+    margin-top: 100px ;
+}
+.section-about {
+  background-image: url(../media/content/about_us/banner.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.l-main-content {
+  position: relative;
+  padding-top: 0px;
+  /* padding-bottom: 100px; */
+  /* border-top: 1px solid #ddd; */
+  background: #fff;
+}
+.about_text{
+  font-size: 16px;
+}
+}
+
+/* Contact Us Page */
+
+@media(max-width:767px)
+{
+  .section-contact_us {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.prod_banner_title {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  z-index: 100;
+  text-align: center;
+}
+.prod_container {
+  margin-left: 20px;
+  margin-right:20px;
+}
+#contact-map {
+  height: 300px;
+  margin-bottom: 70px;
+}
+.section_contact{
+  padding-top: 100px;
+}
+.section_prod_content {
+  padding-bottom: 100px;
+}
+}
+
+
+/* Home Page CSS */
+
+@media(max-width:767px){
+  .b-offers__info {
+    font-size: 16px;
+}
+.home_banner {
+  height: 194px;
+  position: relative;
+  top: 0;
+}
+.home_banner img{
+  height: 194px;
+}
+
 }
