@@ -8,26 +8,26 @@ $(function() {
  event.preventDefault(); // prevent default submit behaviour
  // get values from FORM
  var name = $("input#user-name").val();
- var lastname = $("input#user-lastname").val();
+//  var lastname = $("input#user-lastname").val();
  var email = $("input#user-email").val();
  var phone = $("input#user-phone").val();
- var subject = $("input#user-subject").val();
+//  var subject = $("input#user-subject").val();
  var message = $("textarea#user-message").val();
  var firstName = name; // For Success/Failure Message
  // Check for white space in name for Success/Fail message
- if (firstName.indexOf(' ') >= 0) {
- firstName = name.split(' ').slice(0, -1).join(' ');
- }
+//  if (firstName.indexOf(' ') >= 0) {
+//  firstName = name.split(' ').slice(0, -1).join(' ');
+//  }
  $.ajax({
  url: "././mail/contact_me.php",
  type: "POST",
  dataType: 'json',
  data: {
  name: name,
- lastname: lastname,
+//  lastname: lastname,
  email: email,
  phone: phone,
- subject: subject,
+//  subject: subject,
  message: message
  },
  cache: false,
